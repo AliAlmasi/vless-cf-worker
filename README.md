@@ -3,9 +3,9 @@
 <h2>How to use this?</h2>
 <p>It's Super easy (you don't need any server). Just create a CF Worker and then copy & paste all of the <a href="https://raw.githubusercontent.com/AliAlmasi/vless-cf-worker/main/worker.js">worker.js file's content</a> as the worker's configuration, then do all of these things:</p>
 <ol>
-  <li>Generate a UUID and replace the one in the worker's configuration after you paste it (line 201).</li>
+  <li>Generate a UUID and replace the one in the worker's configuration after you paste it (<a href="https://github.com/AliAlmasi/vless-cf-worker/blob/main/worker.js#L201">line 201</a>).</li>
   <li>Save & Deploy.</li>
-  <li>OPTIONAL: If you've a domain on your Cloudflare, add a custom domain for your worker.</li>
+  <li>OPTIONAL: If you've got a domain on your Cloudflare, add a custom domain for your worker.</li>
   <li>Create a VLESS configuration on any V2Ray/Xray program that you use (personally, I prefer <a href="https://github.com/2dust/v2rayN">v2rayN</a>)</li>
   <li>Set TLS as <b>TLS</b> and your worker's domain as the SNI.</li>
   <li>Set transport to <b>ws</b>.</li>
