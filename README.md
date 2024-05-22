@@ -11,7 +11,7 @@
   <li>Set TLS as <b>TLS</b> and your worker's domain as the SNI.</li>
   <li>Set transport to <b>ws</b>.</li>
   <li>Set your worker's domain as the ws host.</li>
-  <li>Set any <i>Clean Cloudflare IP</i> as the destination address. You can use <a href="https://ircf.space/">IRCF.space</a>.</li>
+  <li>Set any <i>Clean Cloudflare IP</i> as the destination address. You may use <s><a href="https://ircf.space/">IRCF.space</a></s> <code>engage.cloudflareclient.com</code> as the destination address.</li>
   <li>Set <b>443</b> as port.</li>
   <li>And finally, set your own generated UUID as the configuration's UUID.</li>
 </ol>
